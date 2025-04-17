@@ -1,0 +1,91 @@
+/* Sidebar.css */
+
+.sidebar {
+    background-color: #f9e4f0; /* Light pink background */
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-title {
+    font-size: 24px;
+    color: #e91e63; /* A vibrant pink color for the title */
+    text-align: center;
+  }
+  
+  .clear-all {
+    background-color: #d81b60; /* Dark pink */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .clear-all:hover {
+    background-color: #e91e63; /* Slightly lighter pink on hover */
+  }
+  
+  .filter-group {
+    margin-bottom: 20px;
+  }
+  
+  .filter-group h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .filter-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .filter-group input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    appearance: none;
+    height: 8px;
+  }
+  
+  .filter-group input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #e91e63;
+    border-radius: 50%;
+  }
+  
+  .filter-group input[type="range"]:focus {
+    outline: none;
+  }
+  
+  .filter-group input[type="range"]:active::-webkit-slider-thumb {
+    background-color: #d81b60;
+  }
+  
+  .filter-group input[type="range"]:focus::-webkit-slider-thumb {
+    background-color: #e91e63;
+  }
+  
